@@ -1,0 +1,70 @@
+{
+  "id": "npm",
+  "title": "এনপিএম ",
+  "slug": "html",
+  "description": "এনপিএম (npm)এর পূর্ণরূপ হচ্ছে  Node.js package manager, এটি জাভাস্ক্রিপ্ট রানটাইম এনভায়রনমেন্ট নোড জেএস  ডিফল্ট প্যাকেজ ম্যানেজার ",
+  "colorPref": "#e44d26",
+  "contents": [
+    {
+      "title": "সাধারণ",
+      "items": [
+        {
+          "definition": "Package.json file তৈরি করা ",
+          "code": "npm init"
+        },
+        {
+          "definition": "Package.json dependencies install করা ",
+          "code": "npm install"
+        },
+        {
+          "definition": "নির্দিষ্ট কোনো package install করা (Shorthand)",
+          "code": "npm i <package>"
+        },
+        {
+          "definition": "নির্দিষ্ট কোনো package uninstall করা (Shorthand)",
+          "code": "npm un <package>"
+        },
+        {
+          "definition": "নির্দিষ্ট কোনো package update করা (Shorthand)",
+          "code": "npm up <package>"
+        },
+        {
+          "definition": "Globally installed package লিস্ট",
+          "code": "npm list -g --depth=0"
+        },
+        {
+          "definition": "Globally installed package uninstall করা",
+          "code": "npm -g uninstall <name>"
+        },
+        {
+          "definition": "Npm ভার্সন চেক করা ",
+          "code": "npm --version"
+        },
+        {
+          "definition": "Global npm version update করা ",
+          "code": "npm update npm –g"
+        },
+        {
+          "definition": "যেসব  package এর  update দরকার",
+          "code": "npm outdated -g --depth=0"
+        },
+        {
+          "definition": "Windows এ npm upgrade",
+          "code": "npm-windows-upgrade"
+        },
+        {
+          "definition": "ক্যারেন্ট ডিরেক্টরীতে installed package লিস্ট ",
+          "code": "npm ls"
+        },
+        {
+          "definition": "Scripts রান করা ",
+          "code": "npm run"
+        },
+        {
+          "definition": "Latest ভার্সন update করা  ",
+          "code": "npm install -g npm@latest"
+        }
+      ]
+    }
+  ]
+}
